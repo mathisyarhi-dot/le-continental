@@ -1,0 +1,53 @@
+{
+  "name": "Le Continental",
+  "subtitle": "Sea Palace",
+  "domain": "lecontinental.ma",
+  "phone": "+212666510708",
+  "phoneDisplay": "+212 666-510708",
+  "whatsapp": {
+    "base": "https://wa.me/212666510708",
+    "prefill": {
+      "fr": "Bonjour, je souhaite réserver une table au Continental Sea Palace.",
+      "en": "Hello, I would like to book a table at Le Continental Sea Palace."
+    }
+  },
+  "address": {
+    "lines": [
+      "1er, Résidence la Perle de,",
+      "Entrée Corniche, Rte de Mehdia,",
+      "Kénitra 14110, Maroc"
+    ],
+    "full": "1er, Residence la Perle de, Entrée Corniche, Rte de Mehdia, Kénitra 14110, Maroc",
+    "locality": "Kénitra",
+    "postalCode": "14110",
+    "country": "MA",
+    "geo": {
+      "lat": null,
+      "lng": null,
+      "note": "À relever sur Google Maps avant mise en ligne"
+    }
+  },
+  "hours": {
+    "open": "09:00",
+    "close": "00:00",
+    "days": "Mo,Tu,We,Th,Fr,Sa,Su",
+    "label": {
+      "fr": "Tous les jours · 9h00 — 00h00",
+      "en": "Every day · 9:00 am — 12:00 am"
+    }
+  },
+  "payment": {
+    "fr": "Espèces · Carte bancaire · Virement pour les groupes",
+    "en": "Cash · Credit card · Bank transfer for groups"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/lecontinentalseapalace/",
+    "facebook": "https://www.facebook.com/",
+    "facebookNote": "URL exacte à confirmer avec le propriétaire"
+  },
+  "rating": {
+    "value": 4.5,
+    "source": "Google",
+    "note": "À connecter à la vraie fiche Google Business"
+  }
+}
