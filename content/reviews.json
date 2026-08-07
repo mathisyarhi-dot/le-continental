@@ -1,0 +1,41 @@
+{
+  "note": "Avis de démonstration. À remplacer par les vrais avis Google/Tripadvisor avant mise en ligne.",
+  "items": [
+    {
+      "stars": 5,
+      "source": "Google",
+      "fr": {
+        "text": "La plus belle vue de la corniche, et les petits-déjeuners sont généreux. On y vient en famille tous les weekends d'été.",
+        "who": "Familles de Kénitra"
+      },
+      "en": {
+        "text": "The finest view on the seafront, and the breakfasts are generous. We come with the family every summer weekend.",
+        "who": "Kénitra families"
+      }
+    },
+    {
+      "stars": 5,
+      "source": "Google",
+      "fr": {
+        "text": "Sushi vraiment frais, ce qui est rare à Mehdia. Le plateau à partager vaut le détour.",
+        "who": "Visiteur de Rabat"
+      },
+      "en": {
+        "text": "Genuinely fresh sushi, which is rare in Mehdia. The sharing platter is worth the trip.",
+        "who": "Visitor from Rabat"
+      }
+    },
+    {
+      "stars": 5,
+      "source": "Tripadvisor",
+      "fr": {
+        "text": "Terrasse au coucher du soleil, thé à la menthe et crêpes : notre rituel de l'après-midi.",
+        "who": "Habitué"
+      },
+      "en": {
+        "text": "Sunset terrace, mint tea and crêpes: our afternoon ritual.",
+        "who": "Regular"
+      }
+    }
+  ]
+}
