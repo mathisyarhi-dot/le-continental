@@ -1,0 +1,987 @@
+{
+  "categories": [
+    {
+      "id": "dej",
+      "fr": "Petits-déjeuners",
+      "en": "Breakfasts"
+    },
+    {
+      "id": "carte",
+      "fr": "À la carte",
+      "en": "À la carte"
+    },
+    {
+      "id": "sushi",
+      "fr": "Bar à sushi",
+      "en": "Sushi bar"
+    },
+    {
+      "id": "cafe",
+      "fr": "Cafés & thés",
+      "en": "Coffee & tea"
+    },
+    {
+      "id": "jus",
+      "fr": "Jus & mocktails",
+      "en": "Juices & mocktails"
+    },
+    {
+      "id": "sucre",
+      "fr": "Douceurs",
+      "en": "Sweets"
+    }
+  ],
+  "groups": [
+    {
+      "category": "dej",
+      "fr": "Les formules",
+      "en": "The sets",
+      "items": [
+        { "id": "le-port", "price": "63 Dhs", "fr": { "name": "Le Port", "desc": "Mqualla de crevettes, olives noires, huile d'olive, fromage, pain complet, thé à la menthe, jus, eau minérale" }, "en": { "name": "Le Port", "desc": "Prawn mqualla, black olives, olive oil, cheese, wholemeal bread, mint tea, juice, mineral water" } },
+        { "id": "sabah-fes", "price": "60 Dhs", "fr": { "name": "Sabah Fès", "desc": "Œufs au khlii, jben, olives noires, pain complet, boisson chaude, jus, eau minérale" }, "en": { "name": "Sabah Fès", "desc": "Eggs with khlii, jben, black olives, wholemeal bread, hot drink, juice, mineral water" } },
+        { "id": "le-continental", "price": "58 Dhs", "fr": { "name": "Le Continental", "desc": "Deux viennoiseries, tartine à la reine, jambon de dinde, fromage edam, beurre, confiture, porridge de chia, boisson chaude, jus, eau" }, "en": { "name": "Le Continental", "desc": "Two pastries, tartine à la reine, turkey ham, edam, butter, jam, chia porridge, hot drink, juice, water" } },
+        { "id": "l-oriental", "price": "58 Dhs", "fr": { "name": "L'Oriental", "desc": "Baghrira prestige garnie : amlou, miel, jben, amandes effilées, banane, raisin sec, boisson chaude, jus, eau" }, "en": { "name": "L'Oriental", "desc": "Prestige baghrira: amlou, honey, jben, flaked almonds, banana, raisins, hot drink, juice, water" } },
+        { "id": "saveurs-du-territoire", "price": "53 Dhs", "fr": { "name": "Saveurs du Territoire", "desc": "Meloui complet, mssemen, harcha, rghifa agriche, amlou, miel, jben, boisson chaude, jus, eau" }, "en": { "name": "Saveurs du Territoire", "desc": "Full meloui, mssemen, harcha, rghifa agriche, amlou, honey, jben, hot drink, juice, water" } },
+        { "id": "le-quebecois", "price": "53 Dhs", "fr": { "name": "Le Québécois", "desc": "Pain doré à la brioche, fruits de saison, caramel au beurre salé, jus d'orange ou carotte, eau" }, "en": { "name": "Le Québécois", "desc": "Brioche French toast, seasonal fruit, salted butter caramel, orange or carrot juice, water" } },
+        { "id": "norvegien-light", "price": "73 Dhs", "fr": { "name": "Norvégien Light", "desc": "Tartine à la purée d'avocat, saumon fumé, deux œufs pochés, accompagnements, boisson chaude, jus, eau" }, "en": { "name": "Norvégien Light", "desc": "Avocado toast, smoked salmon, two poached eggs, sides, hot drink, juice, water" } },
+        { "id": "omelette-speciale", "price": "73 Dhs", "fr": { "name": "Omelette Spéciale", "desc": "Omelette aux crevettes et herbes, assortiment de légumes verts sautés, accompagnements, boisson chaude, jus, eau" }, "en": { "name": "Omelette Spéciale", "desc": "Prawn and herb omelette, sautéed green vegetables, sides, hot drink, juice, water" } },
+        { "id": "germany", "price": "90 Dhs", "fr": { "name": "Germany", "desc": "Croissant au thon, croissant fromage-jambon, croissant crème chantilly, noix, caramel, saucisse, yaourt, boisson chaude, jus, eau" }, "en": { "name": "Germany", "desc": "Tuna croissant, cheese-ham croissant, chantilly croissant, walnuts, caramel, sausage, yoghurt, hot drink, juice, water" } },
+        { "id": "happy-kids", "price": "45 Dhs", "fr": { "name": "Happy Kids", "desc": "Pancakes nutella, corn flakes, viennoiserie, jus d'orange, lait froid, eau minérale" }, "en": { "name": "Happy Kids", "desc": "Nutella pancakes, corn flakes, pastry, orange juice, cold milk, mineral water" } }
+      ]
+    },
+    {
+      "category": "carte",
+      "fr": "À la carte",
+      "en": "À la carte",
+      "items": [
+        { "id": "assiette-marocaine", "price": "30 Dhs", "fr": { "name": "Assiette marocaine", "desc": "" }, "en": { "name": "Moroccan plate", "desc": "" } },
+        { "id": "omelette-fromage-champignons", "price": "30 Dhs", "fr": { "name": "Omelette au fromage et champignons", "desc": "" }, "en": { "name": "Cheese and mushroom omelette", "desc": "" } },
+        { "id": "croque-monsieur", "price": "35 Dhs", "fr": { "name": "Croque-monsieur", "desc": "" }, "en": { "name": "Croque-monsieur", "desc": "" } },
+        { "id": "bol-energie-chia", "price": "35 Dhs", "fr": { "name": "Bol d'énergie chia aux fruits de saison", "desc": "" }, "en": { "name": "Chia energy bowl, seasonal fruit", "desc": "" } },
+        { "id": "omelette-khlii", "price": "40 Dhs", "fr": { "name": "Omelette au khlii", "desc": "" }, "en": { "name": "Khlii omelette", "desc": "" } },
+        { "id": "baghrir-prestige", "price": "40 Dhs", "fr": { "name": "Baghrir prestige", "desc": "" }, "en": { "name": "Prestige baghrir", "desc": "" } }
+      ]
+    },
+    {
+      "category": "sushi",
+      "fr": "Bar à sushi",
+      "en": "Sushi bar",
+      "note": {
+        "fr": "Carte sushi à récupérer auprès de la maison — la structure de la page est prête, il suffira d'ajouter les plats et les prix.",
+        "en": "Sushi menu still to be collected from the house — the page structure is ready, only the dishes and prices need to be added."
+      },
+      "items": []
+    },
+    {
+      "category": "cafe",
+      "fr": "Les classiques",
+      "en": "The classics",
+      "items": [
+        {
+          "id": "espresso",
+          "price": "25 Dhs",
+          "fr": {
+            "name": "Espresso",
+            "desc": ""
+          },
+          "en": {
+            "name": "Espresso",
+            "desc": ""
+          }
+        },
+        {
+          "id": "cafe-americain",
+          "price": "28 Dhs",
+          "fr": {
+            "name": "Café américain",
+            "desc": ""
+          },
+          "en": {
+            "name": "Americano",
+            "desc": ""
+          }
+        },
+        {
+          "id": "nespresso",
+          "price": "30 Dhs",
+          "fr": {
+            "name": "Nespresso",
+            "desc": ""
+          },
+          "en": {
+            "name": "Nespresso",
+            "desc": ""
+          }
+        },
+        {
+          "id": "double-espresso",
+          "price": "30 Dhs",
+          "fr": {
+            "name": "Double espresso",
+            "desc": ""
+          },
+          "en": {
+            "name": "Double espresso",
+            "desc": ""
+          }
+        },
+        {
+          "id": "cafe-creme",
+          "price": "30 Dhs",
+          "fr": {
+            "name": "Café crème",
+            "desc": ""
+          },
+          "en": {
+            "name": "Café crème",
+            "desc": ""
+          }
+        },
+        {
+          "id": "cafe-latte",
+          "price": "32 Dhs",
+          "fr": {
+            "name": "Café latté",
+            "desc": ""
+          },
+          "en": {
+            "name": "Café latte",
+            "desc": ""
+          }
+        },
+        {
+          "id": "cappuccino",
+          "price": "35 Dhs",
+          "fr": {
+            "name": "Cappuccino",
+            "desc": ""
+          },
+          "en": {
+            "name": "Cappuccino",
+            "desc": ""
+          }
+        },
+        {
+          "id": "chocolat-chaud",
+          "price": "35 Dhs",
+          "fr": {
+            "name": "Chocolat chaud",
+            "desc": ""
+          },
+          "en": {
+            "name": "Hot chocolate",
+            "desc": ""
+          }
+        },
+        {
+          "id": "cappuccino-viennois",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Cappuccino viennois",
+            "desc": ""
+          },
+          "en": {
+            "name": "Viennese cappuccino",
+            "desc": ""
+          }
+        },
+        {
+          "id": "chocolat-viennois",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Chocolat viennois",
+            "desc": ""
+          },
+          "en": {
+            "name": "Viennese chocolate",
+            "desc": ""
+          }
+        },
+        {
+          "id": "double-nespresso",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Double nespresso",
+            "desc": ""
+          },
+          "en": {
+            "name": "Double nespresso",
+            "desc": ""
+          }
+        },
+        {
+          "id": "chocolat-fondue",
+          "price": "50 Dhs",
+          "fr": {
+            "name": "Chocolat fondue",
+            "desc": ""
+          },
+          "en": {
+            "name": "Chocolate fondue",
+            "desc": ""
+          }
+        }
+      ]
+    },
+    {
+      "category": "cafe",
+      "fr": "Thés et infusions",
+      "en": "Teas and infusions",
+      "items": [
+        {
+          "id": "the-marocain",
+          "price": "25 Dhs",
+          "fr": {
+            "name": "Thé marocain",
+            "desc": ""
+          },
+          "en": {
+            "name": "Moroccan mint tea",
+            "desc": ""
+          }
+        },
+        {
+          "id": "the-noir-citron",
+          "price": "27 Dhs",
+          "fr": {
+            "name": "Thé noir citron",
+            "desc": ""
+          },
+          "en": {
+            "name": "Black tea, lemon",
+            "desc": ""
+          }
+        },
+        {
+          "id": "the-tchaba",
+          "price": "35 Dhs",
+          "fr": {
+            "name": "Thé tchaba",
+            "desc": ""
+          },
+          "en": {
+            "name": "Tchaba tea",
+            "desc": ""
+          }
+        },
+        {
+          "id": "verveine",
+          "price": "25 Dhs",
+          "fr": {
+            "name": "Verveine",
+            "desc": ""
+          },
+          "en": {
+            "name": "Verbena",
+            "desc": ""
+          }
+        }
+      ]
+    },
+    {
+      "category": "cafe",
+      "fr": "Iced coffee",
+      "en": "Iced coffee",
+      "items": [
+        {
+          "id": "iced-coffee",
+          "price": "35 Dhs",
+          "fr": {
+            "name": "Iced coffee",
+            "desc": "Dose d'espresso et coup de glaçons"
+          },
+          "en": {
+            "name": "Iced coffee",
+            "desc": "Espresso shot over ice"
+          }
+        },
+        {
+          "id": "iced-coffee-aromatise",
+          "price": "42 Dhs",
+          "fr": {
+            "name": "Iced coffee aromatisé",
+            "desc": "Vanille ou caramel"
+          },
+          "en": {
+            "name": "Flavoured iced coffee",
+            "desc": "Vanilla or caramel"
+          }
+        },
+        {
+          "id": "iced-latte",
+          "price": "42 Dhs",
+          "fr": {
+            "name": "Iced latté",
+            "desc": "Lait, dose d'espresso et glaçons"
+          },
+          "en": {
+            "name": "Iced latte",
+            "desc": "Milk, espresso shot and ice"
+          }
+        },
+        {
+          "id": "iced-latte-aromatise",
+          "price": "47 Dhs",
+          "fr": {
+            "name": "Iced latté aromatisé",
+            "desc": "Vanille ou caramel"
+          },
+          "en": {
+            "name": "Flavoured iced latte",
+            "desc": "Vanilla or caramel"
+          }
+        }
+      ]
+    },
+    {
+      "category": "cafe",
+      "fr": "Nos boissons",
+      "en": "Soft drinks",
+      "items": [
+        {
+          "id": "soda",
+          "price": "20 Dhs",
+          "fr": {
+            "name": "Soda",
+            "desc": ""
+          },
+          "en": {
+            "name": "Soda",
+            "desc": ""
+          }
+        },
+        {
+          "id": "orangina",
+          "price": "25 Dhs",
+          "fr": {
+            "name": "Orangina",
+            "desc": ""
+          },
+          "en": {
+            "name": "Orangina",
+            "desc": ""
+          }
+        },
+        {
+          "id": "boisson-energetique",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Boisson énergétique",
+            "desc": ""
+          },
+          "en": {
+            "name": "Energy drink",
+            "desc": ""
+          }
+        },
+        {
+          "id": "oulmes",
+          "price": "18 Dhs",
+          "fr": {
+            "name": "Oulmès",
+            "desc": ""
+          },
+          "en": {
+            "name": "Oulmès",
+            "desc": ""
+          }
+        },
+        {
+          "id": "oulmes-75-cl",
+          "price": "30 Dhs",
+          "fr": {
+            "name": "Oulmès 75 cl",
+            "desc": ""
+          },
+          "en": {
+            "name": "Oulmès 75 cl",
+            "desc": ""
+          }
+        },
+        {
+          "id": "eau-minerale-50-cl",
+          "price": "20 Dhs",
+          "fr": {
+            "name": "Eau minérale 50 cl",
+            "desc": ""
+          },
+          "en": {
+            "name": "Mineral water 50 cl",
+            "desc": ""
+          }
+        },
+        {
+          "id": "eau-minerale-75-cl",
+          "price": "28 Dhs",
+          "fr": {
+            "name": "Eau minérale 75 cl",
+            "desc": ""
+          },
+          "en": {
+            "name": "Mineral water 75 cl",
+            "desc": ""
+          }
+        }
+      ]
+    },
+    {
+      "category": "jus",
+      "fr": "Fraîcheur — jus pressés",
+      "en": "Fresh pressed juices",
+      "items": [
+        {
+          "id": "jus-de-citron",
+          "price": "30 Dhs",
+          "fr": {
+            "name": "Jus de citron",
+            "desc": ""
+          },
+          "en": {
+            "name": "Lemon juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-d-orange",
+          "price": "30 Dhs",
+          "fr": {
+            "name": "Jus d'orange",
+            "desc": ""
+          },
+          "en": {
+            "name": "Orange juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-carottes",
+          "price": "30 Dhs",
+          "fr": {
+            "name": "Jus de carottes",
+            "desc": ""
+          },
+          "en": {
+            "name": "Carrot juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-banane",
+          "price": "33 Dhs",
+          "fr": {
+            "name": "Jus de banane",
+            "desc": ""
+          },
+          "en": {
+            "name": "Banana juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-pomme",
+          "price": "33 Dhs",
+          "fr": {
+            "name": "Jus de pomme",
+            "desc": ""
+          },
+          "en": {
+            "name": "Apple juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-fraises",
+          "price": "35 Dhs",
+          "fr": {
+            "name": "Jus de fraises",
+            "desc": ""
+          },
+          "en": {
+            "name": "Strawberry juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-kiwi",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Jus de kiwi",
+            "desc": ""
+          },
+          "en": {
+            "name": "Kiwi juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-mangue",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Jus de mangue",
+            "desc": ""
+          },
+          "en": {
+            "name": "Mango juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-d-ananas",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Jus d'ananas",
+            "desc": ""
+          },
+          "en": {
+            "name": "Pineapple juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-d-avocat",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Jus d'avocat",
+            "desc": ""
+          },
+          "en": {
+            "name": "Avocado juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-myrtille",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Jus de myrtille",
+            "desc": ""
+          },
+          "en": {
+            "name": "Blueberry juice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "jus-de-framboise",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Jus de framboise",
+            "desc": ""
+          },
+          "en": {
+            "name": "Raspberry juice",
+            "desc": ""
+          }
+        }
+      ]
+    },
+    {
+      "category": "jus",
+      "fr": "Escale exotique",
+      "en": "Escale exotique",
+      "items": [
+        {
+          "id": "traditionnel",
+          "price": "50 Dhs",
+          "fr": {
+            "name": "Traditionnel",
+            "desc": "Oranges, carottes, eau de fleur d'oranger"
+          },
+          "en": {
+            "name": "Traditionnel",
+            "desc": "Orange, carrot, orange blossom water"
+          }
+        },
+        {
+          "id": "exotique",
+          "price": "55 Dhs",
+          "fr": {
+            "name": "Exotique",
+            "desc": "Oranges, ananas, mangue"
+          },
+          "en": {
+            "name": "Exotique",
+            "desc": "Orange, pineapple, mango"
+          }
+        },
+        {
+          "id": "pina-colada",
+          "price": "55 Dhs",
+          "fr": {
+            "name": "Piña colada",
+            "desc": "Lait de coco, jus d'ananas"
+          },
+          "en": {
+            "name": "Piña colada",
+            "desc": "Coconut milk, pineapple juice"
+          }
+        },
+        {
+          "id": "hawai",
+          "price": "65 Dhs",
+          "fr": {
+            "name": "Hawaï",
+            "desc": "Ananas, fruits de la passion, arôme bleu"
+          },
+          "en": {
+            "name": "Hawaï",
+            "desc": "Pineapple, passion fruit, blue syrup"
+          }
+        },
+        {
+          "id": "maui",
+          "price": "65 Dhs",
+          "fr": {
+            "name": "Maui",
+            "desc": "Pêche, ananas, pistache, lait de coco, menthe"
+          },
+          "en": {
+            "name": "Maui",
+            "desc": "Peach, pineapple, pistachio, coconut milk, mint"
+          }
+        },
+        {
+          "id": "panache-le-continental",
+          "price": "70 Dhs",
+          "fr": {
+            "name": "Panaché Le Continental",
+            "desc": ""
+          },
+          "en": {
+            "name": "Panaché Le Continental",
+            "desc": ""
+          }
+        }
+      ]
+    },
+    {
+      "category": "jus",
+      "fr": "Nos mojitos",
+      "en": "Our mojitos",
+      "items": [
+        {
+          "id": "classic-mojito",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Classic mojito",
+            "desc": ""
+          },
+          "en": {
+            "name": "Classic mojito",
+            "desc": ""
+          }
+        },
+        {
+          "id": "red-mojito",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Red mojito",
+            "desc": ""
+          },
+          "en": {
+            "name": "Red mojito",
+            "desc": ""
+          }
+        },
+        {
+          "id": "green-mojito",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Green mojito",
+            "desc": ""
+          },
+          "en": {
+            "name": "Green mojito",
+            "desc": ""
+          }
+        },
+        {
+          "id": "mojito-tropical",
+          "price": "50 Dhs",
+          "fr": {
+            "name": "Mojito tropical",
+            "desc": ""
+          },
+          "en": {
+            "name": "Tropical mojito",
+            "desc": ""
+          }
+        },
+        {
+          "id": "mojito-red-bull",
+          "price": "60 Dhs",
+          "fr": {
+            "name": "Mojito Red Bull",
+            "desc": ""
+          },
+          "en": {
+            "name": "Red Bull mojito",
+            "desc": ""
+          }
+        }
+      ]
+    },
+    {
+      "category": "jus",
+      "fr": "Pause fraîcheur",
+      "en": "Pause fraîcheur",
+      "items": [
+        {
+          "id": "sunrise",
+          "price": "50 Dhs",
+          "fr": {
+            "name": "Sunrise",
+            "desc": "Betterave, pomme, carottes, orange"
+          },
+          "en": {
+            "name": "Sunrise",
+            "desc": "Beetroot, apple, carrot, orange"
+          }
+        },
+        {
+          "id": "green-tropical",
+          "price": "55 Dhs",
+          "fr": {
+            "name": "Green tropical",
+            "desc": "Pomme verte, kiwi, citron, iceberg, céleri"
+          },
+          "en": {
+            "name": "Green tropical",
+            "desc": "Green apple, kiwi, lemon, iceberg, celery"
+          }
+        },
+        {
+          "id": "booster",
+          "price": "60 Dhs",
+          "fr": {
+            "name": "Booster",
+            "desc": ""
+          },
+          "en": {
+            "name": "Booster",
+            "desc": ""
+          }
+        }
+      ]
+    },
+    {
+      "category": "sucre",
+      "fr": "Crêpes & gaufres",
+      "en": "Crêpes & waffles",
+      "items": [
+        {
+          "id": "nutella-ou-caramel",
+          "price": "35 Dhs",
+          "fr": {
+            "name": "Nutella ou caramel",
+            "desc": ""
+          },
+          "en": {
+            "name": "Nutella or caramel",
+            "desc": ""
+          }
+        },
+        {
+          "id": "nutella-banane",
+          "price": "40 Dhs",
+          "fr": {
+            "name": "Nutella banane",
+            "desc": ""
+          },
+          "en": {
+            "name": "Nutella banana",
+            "desc": ""
+          }
+        },
+        {
+          "id": "nutella-aux-amandes",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Nutella aux amandes",
+            "desc": ""
+          },
+          "en": {
+            "name": "Nutella almond",
+            "desc": ""
+          }
+        },
+        {
+          "id": "miel-et-noix",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Miel et noix",
+            "desc": ""
+          },
+          "en": {
+            "name": "Honey and walnut",
+            "desc": ""
+          }
+        },
+        {
+          "id": "trois-saveurs-chocolatees",
+          "price": "45 Dhs",
+          "fr": {
+            "name": "Trois saveurs chocolatées",
+            "desc": ""
+          },
+          "en": {
+            "name": "Three chocolate flavours",
+            "desc": ""
+          }
+        },
+        {
+          "id": "nutella-oreo",
+          "price": "50 Dhs",
+          "fr": {
+            "name": "Nutella Oreo",
+            "desc": ""
+          },
+          "en": {
+            "name": "Nutella Oreo",
+            "desc": ""
+          }
+        },
+        {
+          "id": "caramel-lotus",
+          "price": "50 Dhs",
+          "fr": {
+            "name": "Caramel Lotus",
+            "desc": ""
+          },
+          "en": {
+            "name": "Lotus caramel",
+            "desc": ""
+          }
+        },
+        {
+          "id": "crepe-speculoos",
+          "price": "65 Dhs",
+          "fr": {
+            "name": "Crêpe Speculoos",
+            "desc": "Trois saveurs chocolatées, biscuit Lotus, boule de glace au choix"
+          },
+          "en": {
+            "name": "Speculoos crêpe",
+            "desc": "Three chocolate flavours, Lotus biscuit, scoop of ice cream"
+          }
+        },
+        {
+          "id": "crepe-le-continental",
+          "price": "70 Dhs",
+          "fr": {
+            "name": "Crêpe Le Continental",
+            "desc": "Crème cheese, saveurs fruitées, boule de glace, crème fouettée vanillée"
+          },
+          "en": {
+            "name": "Crêpe Le Continental",
+            "desc": "Cream cheese, fruit flavours, ice cream, vanilla whipped cream"
+          }
+        },
+        {
+          "id": "crepe-chocolat-brownie-banane",
+          "price": "80 Dhs",
+          "fr": {
+            "name": "Crêpe chocolat brownie-banane",
+            "desc": "Brownie, banane, crème cheese, chocolat au lait, blanc et noir, boule de glace"
+          },
+          "en": {
+            "name": "Brownie-banana chocolate crêpe",
+            "desc": "Brownie, banana, cream cheese, milk, white and dark chocolate, ice cream"
+          }
+        }
+      ]
+    },
+    {
+      "category": "sucre",
+      "fr": "Milkshakes & freakshakes",
+      "en": "Milkshakes & freakshakes",
+      "items": [
+        {
+          "id": "milkshake-au-choix",
+          "price": "50 Dhs",
+          "fr": {
+            "name": "Milkshake au choix",
+            "desc": ""
+          },
+          "en": {
+            "name": "Milkshake, your choice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "orangeshake-au-choix",
+          "price": "55 Dhs",
+          "fr": {
+            "name": "Orangeshake au choix",
+            "desc": ""
+          },
+          "en": {
+            "name": "Orangeshake, your choice",
+            "desc": ""
+          }
+        },
+        {
+          "id": "oreo-freakshake",
+          "price": "60 Dhs",
+          "fr": {
+            "name": "Oreo freakshake",
+            "desc": ""
+          },
+          "en": {
+            "name": "Oreo freakshake",
+            "desc": ""
+          }
+        },
+        {
+          "id": "lotus-biscoff-freakshake",
+          "price": "65 Dhs",
+          "fr": {
+            "name": "Lotus Biscoff freakshake",
+            "desc": ""
+          },
+          "en": {
+            "name": "Lotus Biscoff freakshake",
+            "desc": ""
+          }
+        },
+        {
+          "id": "disney-freakshake",
+          "price": "65 Dhs",
+          "fr": {
+            "name": "Disney freakshake",
+            "desc": ""
+          },
+          "en": {
+            "name": "Disney freakshake",
+            "desc": ""
+          }
+        },
+        {
+          "id": "berry-freakshake",
+          "price": "65 Dhs",
+          "fr": {
+            "name": "Berry freakshake",
+            "desc": ""
+          },
+          "en": {
+            "name": "Berry freakshake",
+            "desc": ""
+          }
+        },
+        {
+          "id": "le-continental-freakshake",
+          "price": "70 Dhs",
+          "fr": {
+            "name": "Le Continental freakshake",
+            "desc": ""
+          },
+          "en": {
+            "name": "Le Continental freakshake",
+            "desc": ""
+          }
+        }
+      ]
+    }
+  ],
+  "$note": "Prix relevés sur la carte imprimée du restaurant (août 2026). À faire confirmer par le propriétaire avant mise en ligne. Pour changer un prix : modifier la valeur \"price\", commit, push — le site se reconstruit tout seul."
+}
